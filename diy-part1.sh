@@ -17,6 +17,6 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #################################################################################################
-git clone https://github.com/pymumu/luci-app-smartdns packages/luci-app-smartdns
-git clone https://github.com/rufengsuixing/luci-app-adguardhome packages/luci-app-adguardhome
-git clone https://github.com/xiaorouji/openwrt-passwall packages/openwrt-passwall
+git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
