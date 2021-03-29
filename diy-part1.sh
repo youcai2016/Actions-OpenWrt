@@ -21,5 +21,4 @@ sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feed
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                    package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                       package/luci-app-smartdns
 
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/adguardhome                 package/adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                     package/adg
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                     package/luci-app-adguardhome
