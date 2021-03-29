@@ -23,4 +23,4 @@ git clone https://github.com/pymumu/luci-app-smartdns.git -b lede               
 
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome         package/luci-app-adguardhome
 sed -i 's/DEPENDS.*/& \+adguardhome/g'  package/luci-app-adguardhome/Makefile
-git clone https://github.com/KFERMercer/openwrt-adguardhome.git                         package/AdGuardHome
+git clone https://github.com/AdguardTeam/AdGuardHome.git                                package/AdGuardHome
