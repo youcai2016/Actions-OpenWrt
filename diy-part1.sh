@@ -21,5 +21,6 @@ sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feed
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                                     package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                                        package/luci-app-smartdns
 
+git clone https://github.com/AdguardTeam/AdGuardHome.git
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome                          package/adg
 sed -i 's/DEPENDS.*/& \+adguardhome/g'  package/adg/Makefile
