@@ -20,4 +20,3 @@ sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feed
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                    package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                       package/luci-app-smartdns
-
